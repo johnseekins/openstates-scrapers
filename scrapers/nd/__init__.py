@@ -6,6 +6,7 @@ from .events import NDEventScraper
 
 settings = {
     "SCRAPELIB_RPM": 10,
+    "SCRAPELIB_TIMEOUT": 300,
     "SCRAPELIB_RETRY_ATTEMPTS": 6,
     "SCRAPELIB_RETRY_WAIT_SECONDS": 30,
 }
